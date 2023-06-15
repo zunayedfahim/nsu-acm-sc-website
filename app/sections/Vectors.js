@@ -43,7 +43,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 2 */}
-      <div className="absolute left-[50rem] top-[53.0625rem]">
+      {/* <div className="absolute left-[9.25] top-[23.173125rem]">
         <svg
           width="739"
           height="356"
@@ -82,10 +82,10 @@ const Vectors = () => {
             </filter>
           </defs>
         </svg>
-      </div>
+      </div> */}
 
       {/* Vector 3 */}
-      <div className="absolute left-[30.8125rem] top-[8.9375rem]">
+      <div className="absolute left-[61.8125rem] top-[8.9375rem]">
         <svg
           width="475"
           height="781"
@@ -126,7 +126,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 4 */}
-      <div className="absolute left-[82.75rem] top-[19.1875rem]">
+      <div className="absolute left-[50rem] top-[10.1825rem]">
         <svg
           width="572"
           height="551"
@@ -167,7 +167,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 5 */}
-      <div className="absolute left-[63.5rem] top-[39.6875rem]">
+      <div className="absolute left-[52.38375rem] top-[26.85375rem]">
         <svg
           width="494"
           height="419"
@@ -208,7 +208,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 6 */}
-      <div className="absolute left-[123.25rem] top-[53.17875rem]">
+      <div className="absolute left-[67.625rem] top-[15rem]">
         <svg
           width="373"
           height="546"
@@ -250,7 +250,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 7 */}
-      <div className="absolute left-[126.375rem] top-[22.42575rem]">
+      <div className="absolute left-[17.161875rem] top-[13.956875rem]">
         <svg
           width="348"
           height="351"
@@ -291,7 +291,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 8 */}
-      <div className="absolute left-[68.125rem] top-[21.375rem]">
+      <div className="absolute left-[58.875rem] top-0">
         <svg
           width="473"
           height="345"
@@ -333,7 +333,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 9 */}
-      <div className="absolute left-[60.210625rem] top-[48.39625rem]]">
+      <div className="absolute left-[2.0625rem] top-[18.50875rem]]">
         <svg
           width="1015"
           height="545"
@@ -375,7 +375,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 10 */}
-      <div className="absolute left-[67.625rem] top-[15rem]">
+      <div className="absolute left-[60.5625rem] top-[32rem]">
         <svg
           width="490"
           height="397"
@@ -417,7 +417,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 11 */}
-      <div className="absolute left-[17.16125rem] top-[19.123125rem]">
+      <div className="absolute left-[18.75rem] top-[5.1225rem]">
         <svg
           width="830"
           height="528"
@@ -459,7 +459,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 12 */}
-      <div className="absolute left-[58.875rem] top-[3.1375rem] ">
+      <div className="absolute left-[64.9375rem] top-[3.125rem] ">
         <svg
           width="420"
           height="545"

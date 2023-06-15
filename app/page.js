@@ -9,7 +9,7 @@ import Vectors from "./sections/Vectors";
 
 export default function Home() {
   return (
-    <main className="w-full text-white bg-[#1B1F44] font-quantico relative">
+    <main className="w-full text-white bg-[#1B1F44] font-quantico relative overflow-hidden">
       {/* <Vectors /> */}
 
       {/* Navbar */}

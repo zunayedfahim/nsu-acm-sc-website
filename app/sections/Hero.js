@@ -30,25 +30,25 @@ const Hero = () => {
         <div className="flex gap-[4.375rem]">
           <div>
             <h1 className="text-[2.25rem] font-bold">
-              <CountUp isCounting end={30} duration={4} easing={"linear"} />+
+              <CountUp isCounting end={30} duration={2} easing={"linear"} />+
             </h1>
             <p className="text-[0.875rem]">workshops</p>
           </div>
           <div>
             <h1 className="text-[2.25rem] font-bold">
-              <CountUp isCounting end={13} duration={4} easing={"linear"} />+
+              <CountUp isCounting end={13} duration={2} easing={"linear"} />+
             </h1>
             <p className="text-[0.875rem]">events</p>
           </div>
           <div>
             <h1 className="text-[2.25rem] font-bold">
-              <CountUp isCounting end={15} duration={4} easing={"linear"} />
+              <CountUp isCounting end={15} duration={2} easing={"linear"} />
             </h1>
             <p className="text-[0.875rem]">seminars</p>
           </div>
           <div>
             <h1 className="text-[2.25rem] font-bold">
-              <CountUp isCounting end={3} duration={4} easing={"linear"} />
+              <CountUp isCounting end={3} duration={2} easing={"linear"} />
             </h1>
             <p className="text-[0.875rem]">publications</p>
           </div>
