@@ -5,12 +5,18 @@ import Activities from "./sections/Activities";
 import Executive from "./sections/Executive";
 import JoinNow from "./sections/JoinNow";
 import Gallery from "./sections/Gallery";
+import Vectors from "./sections/Vectors";
 
 export default function Home() {
   return (
-    <main className="max-w-[90rem] text-white bg-[#1B1F44] font-quantico">
+    <main className="w-full text-white bg-[#1B1F44] font-quantico relative">
+      {/* <Vectors /> */}
+
       {/* Navbar */}
-      <nav className="text-center h-[8.9375rem] flex justify-center items-center border-b-[0.5px] border-b-white/10 border-b-">
+      <nav
+        id="top"
+        className="text-center h-[8.9375rem] flex justify-center items-center border-b-[0.5px] border-b-white/10 border-b-"
+      >
         Navbar
       </nav>
 

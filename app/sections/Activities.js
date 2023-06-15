@@ -13,7 +13,7 @@ const Activities = () => {
       <h1 className="text-[3rem] mt-[7.25rem]">ACTIVITIES FOR MEMBERS</h1>
 
       {/* Pictures */}
-      <div className="grid grid-rows-2 grid-flow-col gap-[4.5625rem] mt-[6.5rem] mb-[5.8125rem]">
+      <div className="grid grid-rows-2 grid-flow-col gap-[4.5625rem] mt-[6.5rem] mb-[5.8125rem] mx-auto">
         {activityImages.map((item, index) => {
           return (
             <img
