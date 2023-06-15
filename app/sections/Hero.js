@@ -1,6 +1,4 @@
-"use-client";
-
-import React from "react";
+"use client";
 import CustomButton from "../components/CustomButton";
 import {
   BsChevronDown,
@@ -10,6 +8,7 @@ import {
   BsMedium,
   BsYoutube,
 } from "react-icons/bs";
+import { CountUp } from "use-count-up";
 
 const Hero = () => {
   return (
@@ -30,19 +29,27 @@ const Hero = () => {
         {/* Counters */}
         <div className="flex gap-[4.375rem]">
           <div>
-            <h1 className="text-[2.25rem] font-bold">30+</h1>
+            <h1 className="text-[2.25rem] font-bold">
+              <CountUp isCounting end={30} duration={4} easing={"linear"} />+
+            </h1>
             <p className="text-[0.875rem]">workshops</p>
           </div>
           <div>
-            <h1 className="text-[2.25rem] font-bold">13+</h1>
+            <h1 className="text-[2.25rem] font-bold">
+              <CountUp isCounting end={13} duration={4} easing={"linear"} />+
+            </h1>
             <p className="text-[0.875rem]">events</p>
           </div>
           <div>
-            <h1 className="text-[2.25rem] font-bold">15</h1>
+            <h1 className="text-[2.25rem] font-bold">
+              <CountUp isCounting end={15} duration={4} easing={"linear"} />
+            </h1>
             <p className="text-[0.875rem]">seminars</p>
           </div>
           <div>
-            <h1 className="text-[2.25rem] font-bold">3</h1>
+            <h1 className="text-[2.25rem] font-bold">
+              <CountUp isCounting end={3} duration={4} easing={"linear"} />
+            </h1>
             <p className="text-[0.875rem]">publications</p>
           </div>
         </div>
