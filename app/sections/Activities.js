@@ -16,11 +16,7 @@ const Activities = () => {
       <div className="grid grid-rows-2 grid-flow-col gap-[4.5625rem] mt-[6.5rem] mb-[5.8125rem] mx-auto">
         {activityImages.map((item, index) => {
           return (
-            <img
-              className="w-[32.5rem] h-[26.8125rem] rounded-[1.875rem]"
-              key={index}
-              src={item}
-            />
+            <img className="w-full rounded-[1.875rem]" key={index} src={item} />
           );
         })}
       </div>

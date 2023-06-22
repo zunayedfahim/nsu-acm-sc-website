@@ -4,7 +4,7 @@ import TopButton from "../components/TopButton";
 
 const About = () => {
   return (
-    <div className="relative">
+    <div id="about" className="relative">
       {/* Heading */}
       <h1 className="font-bold text-[3rem]">WHO WE ARE</h1>
       {/* Description */}
@@ -18,7 +18,7 @@ const About = () => {
       <img
         src="https://nsusc.acm.org/assets/img/aboutpage.jpg"
         alt="nsu-acm-pic"
-        className="w-[69.5rem] h-[37.375rem] bg-gray-400 rounded-xl"
+        className="w-full bg-gray-400 rounded-xl"
       />
 
       {/* Button */}

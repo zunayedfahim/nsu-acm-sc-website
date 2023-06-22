@@ -65,9 +65,11 @@ const Hero = () => {
       </div>
 
       {/* Down Arrow */}
-      <button className="flex items-center justify-center text-3xl font-bold w-full mb-[3.875rem]">
-        <BsChevronDown />
-      </button>
+      <a href="#about">
+        <button className="flex items-center justify-center text-3xl font-bold w-full mb-[3.875rem]">
+          <BsChevronDown />
+        </button>
+      </a>
     </div>
   );
 };

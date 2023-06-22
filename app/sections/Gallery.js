@@ -47,7 +47,7 @@ const Gallery = () => {
     return (
       <img
         key={key}
-        className="w-[22.1875rem] h-[19.3125rem] object-cover object-center p-2"
+        className="w-full h-[19.3125rem] object-cover object-center"
         src={item}
       />
     );
