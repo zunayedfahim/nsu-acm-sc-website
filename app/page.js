@@ -10,8 +10,6 @@ import Vectors from "./sections/Vectors";
 export default function Home() {
   return (
     <>
-      {/* <Vectors /> */}
-
       {/* Home Page */}
       <section className="px-[10%]">
         <Hero />

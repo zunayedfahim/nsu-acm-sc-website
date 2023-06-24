@@ -42,7 +42,7 @@ const ACMEvents = () => {
     return (
       <img
         key={key}
-        className="w-[16.5625rem] h-[21.3125rem] text-3xl text-black rounded-[1.875rem] bg-transparent object-cover object-center"
+        className="w-full h-[21.3125rem] text-3xl text-black rounded-[1.875rem] bg-transparent object-cover object-center px-1"
         src={item}
       />
     );
@@ -61,7 +61,7 @@ const ACMEvents = () => {
     prevArrow: <CustomArrow right={false} />,
   };
   return (
-    <div className="mt-[4.75rem] relative">
+    <div id="events" className="mt-[4.75rem] relative">
       <h1 className="font-bold text-[3rem]">OUR EVENTS</h1>
 
       {/* Slider */}

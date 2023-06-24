@@ -50,12 +50,12 @@ const Executive = () => {
       <h1 className="text-[3rem] font-bold mt-[10.625rem]">EXECUTIVE PANEL</h1>
 
       {/* Pictures */}
-      <div className="grid grid-cols-3 mt-[5.0625rem] mb-[4.75rem] gap-[6.375rem]">
+      <div className="flex items-start justify-between flex-wrap mt-[5.0625rem] mb-[4.75rem]">
         {executivePanel.map(({ name, designation, image }, index) => {
           return (
             <div
-              className={`flex flex-col items-center justify-center  ${
-                index == 0 ? "col-span-3" : ""
+              className={`flex flex-col items-center justify-start mb-[4.19rem] ${
+                index == 0 ? "basis-[100%]" : "basis-[33.33%]"
               }`}
               key={index}
             >
@@ -63,7 +63,7 @@ const Executive = () => {
                 className="w-[13.75rem] h-[13.75rem] rounded-full border-[#9747FF] hover:border-[#2F92D0] border-[0.625rem]"
                 src={image}
               />
-              <h1 className="text-[2rem] text-center">{name}</h1>
+              <h1 className=" text-[2rem] text-center">{name}</h1>
               <p className="text-[1.5rem] text-[#2F92D0]">{designation}</p>
             </div>
           );

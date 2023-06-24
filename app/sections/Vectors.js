@@ -43,7 +43,7 @@ const Vectors = () => {
       </div>
 
       {/* Vector 2 */}
-      {/* <div className="absolute left-[9.25] top-[23.173125rem]">
+      <div className="absolute left-[9.25] top-[23.173125rem]">
         <svg
           width="739"
           height="356"
@@ -82,7 +82,7 @@ const Vectors = () => {
             </filter>
           </defs>
         </svg>
-      </div> */}
+      </div>
 
       {/* Vector 3 */}
       <div className="absolute left-[61.8125rem] top-[8.9375rem]">
