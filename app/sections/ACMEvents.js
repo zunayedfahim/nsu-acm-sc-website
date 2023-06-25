@@ -9,19 +9,24 @@ import TopButton from "../components/TopButton";
 
 const ACMEvents = () => {
   const eventImages = [
-    "https://nsusc.acm.org/assets/img/technovation/technovation4.jpg",
-    "https://nsusc.acm.org/assets/img/technovation/technovation3.jpg",
-    "https://nsusc.acm.org/assets/img/technovation/technovation6.jpg",
-    "https://nsusc.acm.org/assets/img/technovation/technovation7.jpg",
-    "https://nsusc.acm.org/assets/img/hacknsu/hackNSU3.jpg",
-    "https://nsusc.acm.org/assets/img/innovation/innovationChallenge3.jpg",
-    "https://nsusc.acm.org/assets/img/innovation/innovationChallenge4.jpg",
-    "https://nsusc.acm.org/assets/img/innovation/innovationChallenge1.jpg",
-    "https://nsusc.acm.org/assets/img/hacknsu/hackNSU1.jpg",
-    "https://nsusc.acm.org/assets/img/hacknsu/4.jpg",
-    "https://nsusc.acm.org/assets/img/hoc/hoc0.jpg",
-    "https://nsusc.acm.org/assets/img/hoc/hoc1.jpg",
-    "https://nsusc.acm.org/assets/img/hoc/hoc2.jpg",
+    // "https://nsusc.acm.org/assets/img/technovation/technovation4.jpg",
+    // "https://nsusc.acm.org/assets/img/technovation/technovation3.jpg",
+    // "https://nsusc.acm.org/assets/img/technovation/technovation6.jpg",
+    // "https://nsusc.acm.org/assets/img/technovation/technovation7.jpg",
+    // "https://nsusc.acm.org/assets/img/hacknsu/hackNSU3.jpg",
+    // "https://nsusc.acm.org/assets/img/innovation/innovationChallenge3.jpg",
+    // "https://nsusc.acm.org/assets/img/innovation/innovationChallenge4.jpg",
+    // "https://nsusc.acm.org/assets/img/innovation/innovationChallenge1.jpg",
+    // "https://nsusc.acm.org/assets/img/hacknsu/hackNSU1.jpg",
+    // "https://nsusc.acm.org/assets/img/hacknsu/4.jpg",
+    // "https://nsusc.acm.org/assets/img/hoc/hoc0.jpg",
+    // "https://nsusc.acm.org/assets/img/hoc/hoc1.jpg",
+    // "https://nsusc.acm.org/assets/img/hoc/hoc2.jpg",
+    "HackNSU",
+    "Technovation",
+    "Hour of Code",
+    "Programming Contest",
+    "Innovation Challenge",
   ];
 
   const CustomArrow = (props) => {
@@ -40,11 +45,9 @@ const ACMEvents = () => {
 
   const CustomSlides = ({ index, item, key }) => {
     return (
-      <img
-        key={key}
-        className="w-full h-[21.3125rem] text-3xl text-black rounded-[1.875rem] bg-transparent object-cover object-center px-1"
-        src={item}
-      />
+      <div className="w-[16.5625rem] h-[21.3125rem] flex items-center justify-center bg-gray-400 bg-opacity-5 hover:bg-opacity-20 border border-gray-100/50 rounded-[1.875rem] shadow-2xl bg-clip-padding backdrop-filter backdrop-blur-sm text-3xl text-white">
+        <span className="-rotate-45 text-center">{item}</span>
+      </div>
     );
   };
 

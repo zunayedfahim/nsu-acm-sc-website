@@ -63,7 +63,7 @@ const Executive = () => {
                 className="w-[13.75rem] h-[13.75rem] rounded-full border-[#9747FF] hover:border-[#2F92D0] border-[0.625rem]"
                 src={image}
               />
-              <h1 className=" text-[2rem] text-center">{name}</h1>
+              <h1 className="text-[2rem] text-center">{name}</h1>
               <p className="text-[1.5rem] text-[#2F92D0]">{designation}</p>
             </div>
           );
