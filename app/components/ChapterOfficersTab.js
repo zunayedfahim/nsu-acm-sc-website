@@ -1,11 +1,56 @@
+"use client";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
 function ChapterOfficersTab() {
+  let pathname = usePathname();
+  pathname = pathname.split("/").slice(2).join("");
   return (
-    <div className="my-5 flex items-center justify-center gap-5 [&>*]:p-1 hover:[&>*]:bg-[#2F92D0] [&>*]:rounded-xl">
-      <a href="#moderator">Moderator</a>
-      <a href="#coordinator">Coordinator</a>
-      <a href="#executive-body">Executive Body</a>
-      <a href="#sub-executive">Sub-Executive</a>
-      <a href="#incharge">Incharge</a>
+    <div className="my-5 flex items-center justify-center gap-5 [&>*]:p-1 [&>*]:rounded-xl">
+      <Link
+        href="/chapter-officer/"
+        className={`${
+          pathname === "" ? "bg-[#2F92D0]" : "hover:bg-[#2F92D0]/50"
+        } `}
+      >
+        Moderator
+      </Link>
+      <Link
+        href="/chapter-officer/coordinator"
+        className={`${
+          pathname === "coordinator" ? "bg-[#2F92D0]" : "hover:bg-[#2F92D0]/50"
+        }`}
+      >
+        Coordinator
+      </Link>
+      <Link
+        href="/chapter-officer/executive-body"
+        className={`${
+          pathname === "executive-body"
+            ? "bg-[#2F92D0]"
+            : "hover:bg-[#2F92D0]/50"
+        } `}
+      >
+        Executive Body
+      </Link>
+      <Link
+        href="/chapter-officer/sub-executive"
+        className={`${
+          pathname === "sub-executive"
+            ? "bg-[#2F92D0]"
+            : "hover:bg-[#2F92D0]/50"
+        }`}
+      >
+        Sub-Executive
+      </Link>
+      <Link
+        href="/chapter-officer/incharge"
+        className={`${
+          pathname === "incharge" ? "bg-[#2F92D0]" : "hover:bg-[#2F92D0]/50"
+        }`}
+      >
+        Incharge
+      </Link>
     </div>
   );
 }
