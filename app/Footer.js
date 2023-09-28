@@ -1,4 +1,5 @@
 import React from "react";
+import ACMLogo from "./assets/img/logo/ACM_Logo_22.png";
 import {
   BsFacebook,
   BsGithub,
@@ -6,6 +7,7 @@ import {
   BsMedium,
   BsYoutube,
 } from "react-icons/bs";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -14,9 +16,12 @@ const Footer = () => {
       <div className="flex-1 flex items-center justify-between gap-[5rem]">
         {/* Left */}
         <div className="flex flex-col items-center justify-center">
-          <img
-            src="https://nsusc.acm.org/assets/img/ACM_Logo_22.png"
-            className="w-[7.625rem] h-[6.4375rem] mb-[2.19rem]"
+          <Image
+            src={ACMLogo}
+            width={500}
+            height={500}
+            className="w-[7.625rem] h-[6.4375rem]"
+            alt="ACM Logo"
           />
           <p className="w-[24.4375rem]">
             The First Student Chapter Of The Association For Computing

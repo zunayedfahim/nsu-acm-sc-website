@@ -3,22 +3,32 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import Img1 from "../assets/img/gallery/4.jpg";
+import Img2 from "../assets/img/gallery/hackNSU1.jpg";
+import Img3 from "../assets/img/gallery/hackNSU3.jpg";
+import Img4 from "../assets/img/gallery/hoc0.jpg";
+import Img5 from "../assets/img/gallery/hoc1.jpg";
+import Img6 from "../assets/img/gallery/hoc2.jpg";
+import Img7 from "../assets/img/gallery/innovationChallenge1.jpg";
+import Img8 from "../assets/img/gallery/innovationChallenge2.jpg";
+import Img9 from "../assets/img/gallery/innovationChallenge3.jpg";
+import Img10 from "../assets/img/gallery/innovationChallenge4.jpg";
+import Img11 from "../assets/img/gallery/result.jpg";
+import Image from "next/image";
+
 const Gallery = () => {
   const eventImages = [
-    "https://nsusc.acm.org/assets/img/technovation/technovation4.jpg",
-    "https://nsusc.acm.org/assets/img/technovation/technovation3.jpg",
-    "https://nsusc.acm.org/assets/img/technovation/technovation6.jpg",
-    "https://nsusc.acm.org/assets/img/technovation/technovation7.jpg",
-    "https://nsusc.acm.org/assets/img/hacknsu/hackNSU3.jpg",
-    "https://nsusc.acm.org/assets/img/innovation/innovationChallenge3.jpg",
-    "https://nsusc.acm.org/assets/img/innovation/innovationChallenge4.jpg",
-    "https://nsusc.acm.org/assets/img/innovation/innovationChallenge1.jpg",
-    "https://nsusc.acm.org/assets/img/hacknsu/hackNSU1.jpg",
-    "https://nsusc.acm.org/assets/img/hacknsu/4.jpg",
-    "https://nsusc.acm.org/assets/img/hoc/hoc0.jpg",
-    "https://nsusc.acm.org/assets/img/hoc/hoc1.jpg",
-    "https://nsusc.acm.org/assets/img/hoc/hoc2.jpg",
-    "https://nsusc.acm.org/assets/img/innovation/innovationChallenge3.jpg",
+    Img1,
+    Img2,
+    Img3,
+    Img4,
+    Img5,
+    Img6,
+    Img7,
+    Img8,
+    Img9,
+    Img10,
+    Img11,
   ];
 
   function SampleNextArrow(props) {
@@ -43,12 +53,14 @@ const Gallery = () => {
     );
   }
 
-  const CustomSlides = ({ index, item, key }) => {
+  const CustomSlides = ({ item, key }) => {
     return (
-      <img
-        key={key}
-        className="w-full h-[19.3125rem] object-cover object-center"
+      <Image
         src={item}
+        width={"100%"}
+        height={"19.3125rem"}
+        alt={`Gallery Image ${key}`}
+        className="w-full h-[19.3125rem] object-cover object-center"
       />
     );
   };
